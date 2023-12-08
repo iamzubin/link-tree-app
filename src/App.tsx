@@ -1,10 +1,10 @@
-import React from "react";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
-import LinkTree from "./components/LinkTree";
+import LinkTree from './components/LinkTree';
 
-import "./App.css";
-import config from "./config";
+import './App.css';
+import config from './config';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <meta name="description" content={config.description} />
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
-        <title>Spheron Link Tree</title>
+        <title>The NullAyy Corp</title>
       </Helmet>
       <LinkTree />
     </div>
